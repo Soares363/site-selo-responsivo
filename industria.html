@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Selo</title>
+</head>
+<body>
+    <header id="head3">
+        <div id="header">
+            <div id="loguinho" class="loguinhopg3">
+                <img src="img/birigui logok.png" alt="">
+                <a id="biri" class="biri3" href="index.html">Birigui - SP</a>
+            </div>
+
+            <nav>
+                <a class="lado" href="selo.html">Selo</a>
+                <a class="lado" id="ativo2" href="industria.html">Industria</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="mainIndustria">
+
+        <div id="textoHIS">
+            <h1>Conhecendo <br>
+                a historia </h1>
+    
+    
+                <p>
+                    Birigui é uma cidade localizada no estado de São Paulo, Brasil, e é conhecida como um importante polo de produção de calçados, especialmente de calçados infantis. A história do calçado em Birigui está profundamente relacionada ao processo de industrialização do município e aos esforços de empresários locais para desenvolver o setor calçadista na região. <br>
+                    A história da indústria calçadista em Birigui remonta ao início do século XX. No início, a cidade tinha uma economia baseada principalmente na agricultura e no comércio, mas por volta das décadas de 1920 e 1930, algumas fábricas de calçados conheciam a se estabelecer na região. A produção inicial era mais focada em calçados comuns, mas gradualmente se desenvolveu para incluir também calçados infantis. <br>
+                    Na década de 1950, a indústria calçadista de Birigui começou a ganhar mais destaque e a se expandir. Empresas familiares e pequenas oficinas de calçados cresceram e se modernizaram, investindo em tecnologia e processos de fabricação mais eficientes. <br>
+                    Com o passar do tempo, Birigui se especializou cada vez mais na produção de calçados infantis, aproveitando o mercado em crescimento para esse segmento. A cidade tornou-se referência nessa área, atraindo compradores de todo o Brasil e do exterior interessados ​​em seus produtos.<br>
+                    O setor calçadista em Birigui continua a crescer e se consolida ao longo das décadas, enfrentando desafios e buscando inovação para se manter competitivo. A cidade investiu na capacitação da mão de obra local, na criação de associações e parcerias comerciais e em feiras e eventos voltados para o setor, o que contribuiu para fortalecer a indústria calçadista na região.<br>
+                    Hoje, Birigui é reconhecida nacionalmente como uma cidade importante na produção de calçados infantis e contribui significativamente para a economia brasileira. A indústria do calçado é uma parte essencial da identidade e economia local, empregando muitas pessoas diretamente nas fábricas e também gerando oportunidades em outros setores relacionados, como logística, comércio e serviços.<br>
+                </p>
+        </div>
+
+            
+        <div id="centralizar">
+            <div class="slideFotos">
+
+                <figure  class="mySlides">
+                    <img src="1940.jpg">
+                    <figcaption>1940 - Avak Bedouian, um dos empresários pioneiros da indústria calçadista de Birigui</figcaption>
+                </figure>
+
+                <figure class="mySlides">
+                    <img src="1950.jpg">
+                    <figcaption>1950 - ANTÔNIO RAMOS DE ASSUMPÇÃO (SÓCIO-PROPRIETÁRIO DA RAHAL, ASSUMPÇÃO CIA LTDA - RASSUM)</figcaption>
+                </figure>
+
+                <figure class="mySlides">                  
+                    <img src="1960.jpg">
+                    <figcaption>1960 - ANTONIO-LIRANCO-ANTONIO-OSMAR-TASCHIM-BICAL-CALCADOS.</figcaption>
+                </figure>
+
+                <figure class="mySlides">
+                    <img src="1970.jpg">
+                    <figcaption>1970 - MÁQUINA DE MONTAGEM DE CALÇADOS APELIDADA DE CABRITA (CABRITINHA), 1975.</figcaption>
+                </figure>
+
+                <figure class="mySlides" >
+                    <img src="1980.jpg">
+                    <figcaption>1980 - FOTO INTERNA DA INDÚSTRIA E COMÉRCIO DE CALÇADOSI KIUTY. 1988.</figcaption>
+                </figure>
+
+                <figure class="mySlides">
+                    <img src="1990.jpg">
+                    <figcaption>1990 - INDUSTRIA-KIDY-PROPRIETARIOS-SERGIO-GRACIA-RICARDO-GRACIA-</figcaption>
+                </figure>
+
+                <figure class="mySlides" >
+                    <img src="2000.jpg">
+                    <figcaption>2000 - PRESIDENTE LUIZ INÁCIO LULA DA SILVA E O PRESIDENTE DO SINDICATO DAS INDÚSTRIAS DO CALÇADO <br> E VESTUÁRIO DE BIRIGUI (SINBI), SAMIR NAKAD.</figcaption>
+                </figure>
+
+
+
+                <div id="centroBotao">
+                    <button class="botao" onclick="plusDivs(-1)">⟵</button>
+                    <button class="botao" onclick="plusDivs(+1)">⟶</button>
+                </div>
+
+            
+                <script>
+                    var slideIndex = 1;
+                    showDivs(slideIndex);
+                    
+                    function plusDivs(n) {
+                        showDivs(slideIndex += n);
+                    }
+                    
+                    function showDivs(n) {
+                        var i;
+                        var x = document.getElementsByClassName("mySlides");
+                        if (n > x.length) {slideIndex = 1}
+                        if (n < 1) {slideIndex = x.length} ;
+                        for (i = 0; i < x.length; i++) {
+                            x[i].style.display = "none";
+                        }
+                        x[slideIndex-1].style.display = "block";
+                    }
+                </script>
+
+
+            </div>
+        </div>
+            
+
+    </main>
+
+<footer>
+        <div>
+            <p>gabrielpedrosa363@gmail.com</p>
+            <div id="imgs">
+                <a class="whatsimg" href="https://whatsa.me/551899787714/?t=Ol%C3%A1%20gostaria%20de%20conversar%20sobre%20um%20projeto!"><img src="img/whatsapp-logo-icone-fundo-transparente.webp" alt=""></a>
+                <a href="https://www.linkedin.com/in/gabriel-soares-pedrosa/?originalSubdomain=br"><img src="img/linkedin.png" alt=""></a>
+            </div>
+            <p>SENAI-SP</p>
+        </div>
+
+        <div id="prefeitura">
+            <p>Prefeitura de Birigui-SP</p>
+            <img src="img/footer logos.png" alt="">
+        </div>
+</footer>
+
+</body>
+</html>

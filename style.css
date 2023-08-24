@@ -1,0 +1,482 @@
+*{
+    margin: 0;
+}
+#head1{
+    background-image: url(img/fundo\ hed.png);
+    height: 1000px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-family: 'Poiret One', cursive !important;
+}
+header div nav{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+header div a{
+    text-decoration: none;
+    font-size: 42px;
+    padding: 15px;
+    color: white;
+}
+
+header div .lado{
+    margin-right: 20px;
+}
+
+header div #biri{
+    color: black;
+    text-align: center;
+    justify-content: center;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#header nav a:hover{
+    transform: scale(1.1);
+    color: #EE3483;
+    text-decoration: underline;
+}
+
+#header img{
+    width: 70px;
+    
+}
+
+#header #loguinho{
+    display: flex;
+    align-items: center;
+}
+
+::-webkit-scrollbar{
+    width: 15px;
+}
+::-webkit-scrollbar-track{
+    background: #ffffff;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #bd8dff;
+    border-radius: 15px;
+}
+
+#paragrafo p{
+    margin-left: 20px;
+    margin-top: 450px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    margin-bottom: 130px;
+}
+
+.botaoPag{
+    text-decoration: none;
+    background-color: #EE3483;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 42px;
+    margin-left: 450px;
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+.btn-conteiner {
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    --color-text: #ffffff;
+    --color-background: #EE3483;
+    --color-outline: #ff145b80;
+    --color-shadow: #00000080;
+}
+
+.btn-content {
+    display: flex;
+    align-items: center;
+    padding: 5px 30px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: var(--color-text);
+    background: var(--color-background);
+    transition: 1s;
+    border-radius: 100px;
+    box-shadow: 0 0 0.2em 0 var(--color-background);
+}
+
+.btn-content:hover, .btn-content:focus {
+    transition: 0.5s;
+    -webkit-animation: btn-content 1s;
+    animation: btn-content 1s;
+    outline: 0.1em solid transparent;
+    outline-offset: 0.2em;
+    box-shadow: 0 0 0.4em 0 var(--color-background);
+}
+
+.btn-content .icon-arrow {
+    transition: 0.5s;
+    margin-right: 0px;
+    transform: scale(0.6);
+}
+
+.btn-content:hover .icon-arrow {
+    transition: 0.5s;
+    margin-right: 25px;
+}
+
+.icon-arrow {
+    width: 20px;
+    margin-left: 15px;
+    position: relative;
+    top: 6%;
+}
+    
+  /* SVG */
+#arrow-icon-one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+#arrow-icon-two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.btn-content:hover #arrow-icon-three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.btn-content:hover #arrow-icon-one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.btn-content:hover #arrow-icon-two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+  /* SVG animations */
+@keyframes color_anim {
+    0% {
+    fill: white;
+    }
+
+    50% {
+    fill: var(--color-background);
+    }
+
+    100% {
+    fill: white;
+    }
+}
+
+  /* Button animations */
+@-webkit-keyframes btn-content {
+    0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+    }
+}
+
+@keyframes btn-content {
+    0% {
+    outline: 0.2em solid var(--color-background);
+    outline-offset: 0;
+    }
+}
+/* -------------------------------------------------------------------------------------------------------------------------------- */
+#logRoxo{
+    margin-top: -150px;
+    padding-left: 50px;
+    width: 320px;
+}
+
+#icone{
+    display: flex;
+}
+
+#icone h3{
+    display: flex;
+    padding-right: 5px;
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+#icone i{
+    color: red;
+    font-size: 42px;
+}
+
+main{
+    font-family: 'Quicksand', sans-serif
+}
+
+#main1{
+    background-color: #613d94;
+    background-image: url(img/fundo\ main.png);
+    background-size: cover;
+}
+
+#maps1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#texto1{
+    margin: 40px;
+}
+
+#texto1 p {
+    color: white;
+    font-size: 32px;
+}
+
+#maps1 iframe{
+    margin: 30px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+
+/* ---------------------------------------------------------------------------------- */
+
+#logoPink2 img{
+    margin-top: -80px;
+    width: 300px;
+}
+#logoPink2{
+    display: flex;
+    text-align: center;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#logoPink2 h3{
+    margin-top: -80px;
+    display: flex;
+    padding-right: 5px;
+    color: white;
+    font-size: 42px;
+    margin-bottom: 20px;
+    margin-right: 45px;
+
+}
+
+#main2{
+    background-image: url(img/fundo\ main2\ ok.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#main2 p{
+    color: white;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center; 
+    
+}
+
+.botaoPag2{
+    text-decoration: none;
+    background-color: #EE3483;
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 42px;
+    margin-left: 950px;
+    display: block; 
+    width: 244px;
+    margin-bottom: 30px;
+}
+
+.but{
+    display: flex;
+    justify-content: end;
+    margin-right: 50px;
+
+
+}
+
+/* FOOTER------------------------------------------------------------------------------------- */
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+    background-image: url(img/bts.png);
+    background-position: 0% 80%;
+}
+
+footer p{
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-size: 32px;
+}
+
+.whatsimg img{
+    width: 50px;
+}
+
+footer div{
+    margin: 20px;
+}
+
+/* ----------------------------------------------------------------------------------------------- */
+/* PAGINA 2 (SELO) */
+
+#head2{
+    font-family: 'Poiret One', cursive !important;
+    background-image: url(img/fundo2.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    filter: drop-shadow(1px 10px 40px #613b97);
+}
+#backgroundFeio{
+    background-image: url(img/fundo\ feio.png);
+}
+#parteTexto{
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+#fundoTexto{
+    padding: 100px;
+    background-color: aliceblue ;
+    border-radius: 40px;
+    width: 800px;
+}
+
+#fundoTexto h4{
+    padding: 20px;
+    font-size: 30px;
+    margin-bottom: 50px;
+    margin-top: -50px;
+}
+
+#fundoTexto p{
+    font-size: 20px;
+}
+
+#seloPreto img{
+    width: 290px;
+}
+#seloPreto{
+    display: flex;
+    justify-content: end;
+    margin-top: -250px;
+    padding-bottom: 50px;
+}
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* parte logo */
+
+#tituloElogo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+}
+
+#tituloEsub h3{
+    font-family: 'Krona One', sans-serif;
+    font-size: 40px;
+}
+
+.fileiras{
+    display: flex;
+    justify-content: center;
+}
+
+
+.seloPedacos{
+    text-align: center;
+    justify-content: center;
+    width: 300px;
+    margin: 60px;
+}
+
+.seloPedacos h4{
+    font-size: 30px;
+}
+
+.seloPedacos p{
+    font-size: 20px;
+    text-align:justify;
+}
+
+/* -----------------------------------------------------------------------------------------------------------------------------------------
+Industria */
+
+#head3{
+    font-family: 'Poiret One', cursive !important;
+    background-image: url(img/bts.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100px;
+    filter: drop-shadow(1px 5px 10px #613b97);
+}
+
+.loguinhopg3 a{
+    color: #ffffff !important;
+}
+
+
+#textoHIS h1{
+    font-family: 'Krona One', sans-serif;
+    font-size: 40px;
+    margin-top: 60px;
+    padding: 40px;
+}
+
+#textoHIS p{
+    font-size: 20px;
+    padding: 100px;
+}
+
+#textoHIS{
+    justify-content: center;
+}
+
+#centralizar{
+    display: flex;
+    justify-content: center;
+}
+
+#centralizar button{
+    width: 50px;
+    border-radius: 40px;
+    background-color: #a09e9f5b;
+    border-color: #00000000;
+    padding: 8px;
+    margin: 20px;
+    color: #3f3f3f;
+    margin-bottom: 40px;
+}
+
+#centralizar button:hover{
+    background-color: #5f5f5f;
+    
+}
+
+#centroBotao{
+    display: flex;
+    justify-content: center;
+}
+
+#ativo , #ativo2{
+    transform: scale(1.1);
+    color: #EE3483;
+    text-decoration: underline;
+}
